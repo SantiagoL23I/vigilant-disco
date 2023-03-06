@@ -27,4 +27,53 @@ elif a+b<c:
 elif a+b==c:
   print("el resultado entre la suma de "+str(a)+" y "+str(b)+" es igual que " +str(c))
 ```
+```pseudocode
+a:float
+b:float
+c:float
+d:float
+e:float
+a=float(input("digite el primer número"))
+b=float(input("digite el segundo número"))
+c=float(input("digite el tercer número"))
+d=float(input("digite el cuarto número"))
+e=float(input("digite el quinto número"))
+f= a+b+c+d+e
+g= f/5
+print ("el promedio es "+str(g))
 
+if a<b<c<d<e:
+    print("la mediana es "+str(c))
+elif b<a<c<d<e:
+    print("la mediana es "+str(c))
+elif c<a<b<d<e:
+    print("la mediana es "+str(b))
+elif d<a<b<c<e:
+    print("la mediana es "+str(b))
+elif e<a<b<c<d:
+    print("la mediana es "+str(b))
+elif a>b>c>d>e:
+    print("la mediana es "+str(c))
+elif b>a>c>d>e:
+    print("la mediana es "+str(c))
+elif c>a>b>d>e:
+    print("la mediana es "+str(b))
+elif d>a>b>c>e:
+    print("la mediana es "+str(b))
+elif e>a>b>c>d:
+    print("la mediana es "+str(b))
+elif b<c<d<e<a:
+    print("la mediana es "+str(d))
+elif c<d<e<a<b:
+    print("la mediana es "+str(e))
+elif d<e<a<b<c:
+    print("la mediana es "+str(a))
+elif b>c>d>e>a:
+    print("la mediana es "+str(d))
+elif c>d>e>a>b:
+    print("la mediana es "+str(e))
+elif d>e>a>b>c:
+    print("la mediana es "+str(a)) a>b<c b
+elif 
+    print("la mediana es "+str(c)) 
+```
