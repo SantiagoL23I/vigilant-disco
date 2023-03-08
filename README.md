@@ -77,3 +77,78 @@ elif d>e>a>b>c:
 elif 
     print("la mediana es "+str(c)) 
 ```
+```pseudocode
+Pais= (input("Ingrese un país de américa en minúscula"))
+match Pais:
+  case "colombia":
+        print("bogota")
+  case "argentina":     
+        print("buenos aires")
+  case "uruguay":
+      print("montevideo")
+  case "chile":
+      print("santiago")    
+  case "peru":
+      print("lima")
+  case "brasil":
+      print("brasilia")
+  case "bolivia":
+      print("sucre") 
+  case "venezuela":
+      print("caracas") 
+  case "surinam":
+      print("paramaribo")
+  case"antigua y barbuda":
+      print ("Saint John's")
+  case "bahamas":
+      print ("nassau")
+  case "guatemala":
+      print("ciudad de guatemala")
+  case "barbados":
+      print("bridgetown")
+  case "belice":
+      print("belmopan")
+  case "canada":
+      print("ottawa")
+  case "costa rica":
+      print("san jose")
+  case "cuba":
+      print("la habana")
+  case "mexico":
+      print("ciudad de mexico")
+  case "republica dominicana":
+      print("santo domingo")
+  case "dominica":
+      print("roseau")
+  case "ecuador":
+      print("quito")
+  case "el salvador":
+        print("san salvador")
+  case "estados unidos":
+        print("washington, D.C.") 
+  case "granada":
+        print("saint george's")
+  case "honduras":
+        print("tegucigalpa")
+  case "guyana":
+        print("georgetown") 
+  case "haiti":
+        print("puerto ptincipe")
+  case "jamaica":
+        print("kingston")
+  case "nicaragua":
+        print("managua")
+  case "paraguay":
+        print("asuncion")
+  case "panama":
+        print("ciudad de panama")
+  case "san cristóbal y nieves":
+        print("basseterre")
+  case "santa lucia":
+        print("castries")
+  case "san vicente y las granadinas":
+        print("kingstown")
+  case "trinidad y tobago":
+        print("puerto españa")      
+  case _: print(str(Pais)+" no es un país de américa")      
+  ```
